@@ -1,0 +1,19 @@
+{
+  "name": "socialiteproviders/apple",
+  "description": "Apple OAuth2 Provider for Laravel Socialite",
+  "license": "MIT",
+  "authors": [{
+    "name": "Evgeny Leksunin",
+    "email": "e.leksunin@pm.me"
+  }],
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "ext-json": "*",
+    "socialiteproviders/manager": "~2.0 || ~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SocialiteProviders\\Apple\\": ""
+    }
+  }
+}
